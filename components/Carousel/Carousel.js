@@ -26,6 +26,7 @@ class Carousel {
         // return this.rightIndex(currentIndex + 1);
         return (currentIndex + 2) % 4;
     }
+
 }
 
 const carousel = document.querySelector(".carousel");
